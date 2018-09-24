@@ -7,5 +7,11 @@ public class Loop1 {
             System.out.printf("%.1f\n",i);
             i=i+x;
         }
+        double l = 0;
+        double k = 0.1;
+        do {
+            System.out.printf("%.1f\n",l);
+            l = l + k;
+        }while (l<=3.0);
     }
 }
