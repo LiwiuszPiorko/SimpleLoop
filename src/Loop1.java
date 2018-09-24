@@ -4,7 +4,7 @@ public class Loop1 {
         double i = 0;
         double x = 0.1;
         while (i <= 3.0) {
-            System.out.println(i);
+            System.out.printf("%.1f\n",i);
             i=i+x;
         }
     }
