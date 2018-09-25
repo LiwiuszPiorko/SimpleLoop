@@ -3,7 +3,7 @@ public class Loop1 {
 
         double i = 0;
         double x = 0.1;
-        while (i <= 3.0) {
+        while (i < 3.1) {
             System.out.printf("%.1f\n",i);
             i=i+x;
         }
@@ -12,6 +12,6 @@ public class Loop1 {
         do {
             System.out.printf("%.1f\n",l);
             l = l + k;
-        }while (l<=3.0);
+        }while (l<=3.1);
     }
 }
